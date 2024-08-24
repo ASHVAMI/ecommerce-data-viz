@@ -1,0 +1,22 @@
+{
+    "name": "ecommerce-data-viz-backend",
+    "version": "1.0.0",
+    "description": "Backend API for e-commerce data visualization web application",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.4.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.18.2",
+        "mongoose": "^7.4.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}

@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.env
+.DS_Store
+
+# Frontend (React)
+build/
+public/
+coverage/
+*.log
+
+# Backend (Node.js)
+*.log
+logs/
+*.pid
+*.seed
+*.tgz
+*.swp
+*.swo
+
+# MongoDB
+data/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+
+# Misc
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore any environment-specific files
+.env.local
+.env.*.local
